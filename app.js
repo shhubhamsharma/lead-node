@@ -41,7 +41,6 @@ app.use("/signup",require('./routes/signup'));
 app.use("/addBook",require('./routes/addBook'));
 app.use("/getBooks",require('./routes/booksList'));
 app.use("/deleteBook",require('./routes/delBook'));
-app.use("/searchBook",require('./routes/searchbook'));
 
 
 connection.query('CREATE DATABASE IF NOT EXISTS test', function (err) {
